@@ -35,7 +35,7 @@ public class Main {
             lessThan++;
         }
 
-        System.out.println("Average height: " + (average/(double) vect.length));
+        System.out.println("\nAverage height: " + (average/(double) vect.length));
         System.out.println("People less than 16 years olds: " + (lessThan*100/(double) vect.length) + "%");
         for(int i=0; i<vect.length; i++){
             if(vect[i].getAge()<16)
